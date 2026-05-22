@@ -1,0 +1,14 @@
+[
+    {
+        "id": "art_1",
+        "type": "article",
+        "text": {
+            "en": "Article 1: Scope",
+            "fr": "Article 1: Champ d'application",
+            "rw": "Ingingo ya 1: Inzego zigenerwa aya mategeko"
+        },
+        "content": {
+            "en": "This law governs legal editing automation in Rwanda."
+        }
+    }
+]
