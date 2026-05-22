@@ -1,15 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
   <act name="republicOfRwandaLaw">
+    <meta>
+      <proprietary source="#rwandaLegalPortal">
+        <category>Business</category>
+        <subCategory>Industry</subCategory>
+      </proprietary>
+    </meta>
     <body>
       <article eId="art_1">
         <heading>
           <span lang="en">Article 1: Scope</span>
-          <span lang="fr">Article 1: Champ d'application</span>
-          <span lang="rw">Ingingo ya 1: Inzego zigenerwa aya mategeko</span>
+          <span lang="fr">...</span>
+          <span lang="rw">...</span>
         </heading>
         <content>
-          <p>This law governs legal editing automation in Rwanda.</p>
+          <p>Content here...</p>
         </content>
       </article>
     </body>
