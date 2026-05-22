@@ -1,0 +1,33 @@
+name: Akoma Ntoso Validation & Build
+on: [push]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install xmlstarlet
+        run: sudo apt-get install -y xmlstarlet
+      - name: Validate XML files
+        run: |
+          find . -name "*.xml" -exec echo "Validating {}" \; -exec xmlstarlet val --well-formed {} \;
+
+  build-windows:
+    needs: validate
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          pip install pyinstaller lxml
+      - name: Build EXE
+        run: |
+          pyinstaller --onefile standalone_editor.py
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: RwandaLegalEditor-Windows
+          path: dist/standalone_editor.exe
