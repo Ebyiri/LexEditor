@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+    <act name="law">
+        <meta>
+            <identification source="#source">
+                <FRBRWork>
+                    <FRBRthis value="/akn/rw/act/2026/1/main"/>
+                    <FRBRuri value="/akn/rw/act/2026/1"/>
+                    <FRBRdate date="2026-05-22" name="Generation"/>
+                    <FRBRauthor href="#parliament"/>
+                    <FRBRcountry value="rw"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/rw/act/2026/1/mul@/main"/>
+                    <FRBRuri value="/akn/rw/act/2026/1/mul@"/>
+                    <FRBRdate date="2026-05-22" name="Generation"/>
+                    <FRBRauthor href="#parliament"/>
+                    <FRBRlanguage language="en"/>
+                    <FRBRlanguage language="fr"/>
+                    <FRBRlanguage language="rw"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/rw/act/2026/1/mul@/main.xml"/>
+                    <FRBRuri value="/akn/rw/act/2026/1/mul@.xml"/>
+                    <FRBRdate date="2026-05-22" name="Generation"/>
+                    <FRBRauthor href="#compiler"/>
+                </FRBRManifestation>
+            </identification>
+        </meta>
+        
+        <body>
+            <part id="part_1">
+                <num xml:lang="en">PART I</num>
+                <num xml:lang="fr">PARTIE I</num>
+                <num xml:lang="rw">IGICE CHA I</num>
+                <heading xml:lang="en">GENERAL PROVISIONS</heading>
+                <heading xml:lang="fr">DISPOSITIONS GÉNÉRALES</heading>
+                <heading xml:lang="rw">INGINGO Z'INGENZI</heading>
+                
+                <title id="title_1">
+                    <num xml:lang="en">TITLE I</num>
+                    <num xml:lang="fr">TITRE I</num>
+                    <num xml:lang="rw">UMUTOWE WA I</num>
+                    <heading xml:lang="en">SCOPE</heading>
+                    <heading xml:lang="fr">CHAMP D'APPLICATION</heading>
+                    <heading xml:lang="rw">IZMUKIRWA</heading>
+                    
+                    <chapter id="chp_1">
+                        <num xml:lang="en">CHAPTER I</num>
+                        <num xml:lang="fr">CHAPITRE I</num>
+                        <num xml:lang="rw">IGICE I</num>
+                        <heading xml:lang="en">ESTABLISHMENT</heading>
+                        <heading xml:lang="fr">CRÉATION</heading>
+                        <heading xml:lang="rw">KUSHIRAHO</heading>
+                        
+                        <section id="sec_1">
+                            <num xml:lang="en">Section 1</num>
+                            <num xml:lang="fr">Section 1</num>
+                            <num xml:lang="rw">Icyiciro cya 1</num>
+                            
+                            <subsection id="ssec_1">
+                                <num xml:lang="en">Subsection 1</num>
+                                <num xml:lang="fr">Sous-section 1</num>
+                                <num xml:lang="rw">Akanyiciro ka 1</num>
+                                
+                                <article id="art_1">
+                                    <num xml:lang="en">Article 1.</num>
+                                    <num xml:lang="fr">Article 1er.</num>
+                                    <num xml:lang="rw">Ingingo ya 1.</num>
+                                    <heading xml:lang="en">Purpose</heading>
+                                    <heading xml:lang="fr">Objet</heading>
+                                    <heading xml:lang="rw">Inshingano</heading>
+                                    
+                                    <paragraph id="art_1__para_1">
+                                        <content>
+                                            <p xml:lang="en">This is a simple standalone text line in English.</p>
+                                            <p xml:lang="fr">Ceci est une simple ligne de texte autonome en français.</p>
+                                            <p xml:lang="rw">Aka ni umurongo w'umwimerere w'inyandiko mu Kinyarwanda.</p>
+                                        </content>
+                                    </paragraph>
+                                    
+                                    <paragraph id="art_1__para_2">
+                                        <content>
+                                            <blockList id="art_1__list_1">
+                                                <item id="art_1__list_1__item_1">
+                                                    <num xml:lang="en">1º</num>
+                                                    <num xml:lang="fr">1º</num>
+                                                    <num xml:lang="rw">1º</num>
+                                                    <p xml:lang="en">First degree item text.</p>
+                                                    <p xml:lang="fr">Texte du premier point du degré.</p>
+                                                    <p xml:lang="rw">Inyandiko y'akagingo ka mbere.</p>
+                                                </item>
+                                                
+                                                <item id="art_1__list_1__item_2">
+                                                    <num xml:lang="en">2º</num>
+                                                    <num xml:lang="fr">2º</num>
+                                                    <num xml:lang="rw">2º</num>
+                                                    <p xml:lang="en">This parent degree point contains sub-points:</p>
+                                                    <p xml:lang="fr">Ce point de degré parent contient des sous-points:</p>
+                                                    <p xml:lang="rw">Aka kagingo gafite utundi tukagiramo:</p>
+                                                    
+                                                    <blockList id="art_1__list_1__item_2__sublist_1">
+                                                        <item id="art_1__list_1__item_2__sublist_1__item_a">
+                                                            <num xml:lang="en">a)</num>
+                                                            <num xml:lang="fr">a)</num>
+                                                            <num xml:lang="rw">a)</num>
+                                                            <p xml:lang="en">Nested item a.</p>
+                                                            <p xml:lang="fr">Article imbriqué a.</p>
+                                                            <p xml:lang="rw">Akanyandiko a.</p>
+                                                        </item>
+                                                    </blockList>
+                                                </item>
+                                            </blockList>
+                                        </content>
+                                    </paragraph>
+                                    
+                                </article>
+                            </subsection>
+                        </section>
+                    </chapter>
+                </title>
+            </part>
+        </body>
+    </act>
+</akomaNtoso>
